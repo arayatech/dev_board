@@ -2,8 +2,8 @@
   "recommendations": [
     "rebornix.Ruby",
     "kaiwood.endwise",
-    "vortizhe.simple-ruby-erb",
     "bung87.rails",
-    "ninoseki.vscode-gem-lens"
+    "ninoseki.vscode-gem-lens",
+    "aliariff.vscode-erb-beautify"
   ]
 }
