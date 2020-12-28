@@ -1,9 +1,10 @@
 {
   "ruby.useLanguageServer": true,
   "ruby.useBundler": true,
+  "ruby.lint": { "rubocop": true },
   "ruby.intellisense": "rubyLocate",
   "ruby.codeCompletion": "rcodetools",
-  "ruby.format": "rufo",
+  "ruby.format": "rubyfmt",
   "files.associations": {
     "*.html.erb": "erb"
   },
