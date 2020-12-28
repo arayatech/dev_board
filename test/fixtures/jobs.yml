@@ -23,9 +23,25 @@
 #
 #  fk_rails_...  (user_id => users.id)
 #
-class Job < ApplicationRecord
-  belongs_to :user
-  has_rich_text :description
-  has_rich_text :company_description
-  has_one_attached :company_logo
-end
+
+one:
+  title: MyString
+  link_to_apply: MyString
+  company_name: MyString
+  company_website: MyString
+  role_type: MyString
+  compensation_range: MyString
+  remote: false
+  years_of_experience: MyString
+  user: one
+
+two:
+  title: MyString
+  link_to_apply: MyString
+  company_name: MyString
+  company_website: MyString
+  role_type: MyString
+  compensation_range: MyString
+  remote: false
+  years_of_experience: MyString
+  user: two

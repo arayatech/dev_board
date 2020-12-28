@@ -23,9 +23,10 @@
 #
 #  fk_rails_...  (user_id => users.id)
 #
-class Job < ApplicationRecord
-  belongs_to :user
-  has_rich_text :description
-  has_rich_text :company_description
-  has_one_attached :company_logo
+require "test_helper"
+
+class JobTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
 end
