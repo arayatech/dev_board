@@ -1,51 +1,49 @@
 Style/FrozenStringLiteralComment:
   Enabled: false
-Layout/SpaceBeforeBrackets: 
+Layout/SpaceBeforeBrackets:
   Enabled: true
-Lint/AmbiguousAssignment: 
+Lint/AmbiguousAssignment:
   Enabled: true
-Lint/DuplicateBranch: 
+Lint/DuplicateBranch:
   Enabled: true
-Lint/DuplicateRegexpCharacterClassElement: 
+Lint/DuplicateRegexpCharacterClassElement:
   Enabled: true
-Lint/EmptyBlock: 
+Lint/EmptyBlock:
   Enabled: true
-Style/Documentation: 
+Style/Documentation:
   Enabled: false
-Style/StringLiterals: 
+Style/StringLiterals:
   Enabled: false
-Lint/EmptyClass: 
+Lint/EmptyClass:
   Enabled: true
-Lint/NoReturnInBeginEndBlocks: 
+Lint/NoReturnInBeginEndBlocks:
   Enabled: true
-Lint/ToEnumArguments: 
+Lint/ToEnumArguments:
   Enabled: true
-
+Metrics/MethodLength:
+  Enabled: false
 Metrics/BlockLength:
-  Exclude:
-    - 'Rakefile'
-    - '**/*.rake'
-    - 'test/**/*.rb'
-  Max: 99
-Lint/UnexpectedBlockArity: 
+  Enabled: false
+Lint/UnexpectedBlockArity:
   Enabled: true
 AllCops:
-    SuggestExtensions: false
+  SuggestExtensions: false
+  TargetRubyVersion: 2.7.1
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
-Style/ArgumentsForwarding: 
+Style/ArgumentsForwarding:
   Enabled: true
 Style/CollectionCompact:
   Enabled: true
-Style/DocumentDynamicEvalDefinition: 
+Style/DocumentDynamicEvalDefinition:
   Enabled: true
 Style/HashExcept:
   Enabled: true
-Style/NegatedIfElseCondition: 
+Style/NegatedIfElseCondition:
   Enabled: true
-Style/NilLambda: 
+Style/NilLambda:
   Enabled: true
-Style/RedundantArgument: 
+Style/RedundantArgument:
   Enabled: true
-Style/SwapValues: 
+Style/SwapValues:
   Enabled: true
